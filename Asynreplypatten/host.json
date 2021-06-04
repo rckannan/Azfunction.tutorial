@@ -1,0 +1,19 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    }
+  },
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "Servicebusconnectionstring": "Endpoint=sb://rithvbus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=363UGbf14nNod2Vy2dSGinoLa5elnDkeZFmP8yf+m7A=",
+    "queuename": "rithvqueue",
+    "storageconnectionstring": "DefaultEndpointsProtocol=https;AccountName=rithvstgacc001;AccountKey=F+H2yolkxsOqLRmxIu9n3fLulmo3AiHWm97bMY4VIXZ6YSoRFOeqcTRn+hx3tJtwr2O9gsCGNo8hjx4nMWXGlQ==;EndpointSuffix=core.windows.net"
+
+  }
+}
